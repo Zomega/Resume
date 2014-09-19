@@ -1,6 +1,7 @@
 \documentclass{res} 
 
 \usepackage{cmbright}
+\usepackage[top=0.5in, bottom=0in, left=0.4in, right=1.1in]{geometry}
 \usepackage[T1]{fontenc}
 
 \setlength{\textheight}{10in} % increase text height to fit on 1-page 
@@ -9,7 +10,7 @@
 	\name{ \huge{William Oursler}\\[24pt]}
 
 	\address{
-		Room 637 \\
+		Room 631D \\
 		229 Vassar Street \\
 		Cambridge, MA  02139
 	}
@@ -30,16 +31,17 @@
 
 				Major: 6-2 (Electrical Engineering \& Computer Science)
 
-				GPA: 4.0
-
 				Notable Classes (Taken or Currently Enrolled):
 				6.004 Computation Structures,
 				6.002 Circuits \& Electronics,
+				\\6.003 Signals and Systems,
 				6.005 Elements of Software Construction,
 				6.042 Mathematics for Computer Science,
-				6.006 Introduction to Algorithms,
-				6.046 Algorithms II,
-				6.858 Computer Systems Security
+				6.548 Advanced Algorithms,
+				6.858 Computer Systems Security,
+				6.832 Underactuated Robotics,
+				\\6.115 Microcontrollers Lab
+				6.035 Computer Language Engineering
 
 			\end{description}
 
@@ -48,17 +50,27 @@
 			\vspace{-0.1in}
 
 			\begin{tabbing}
+				\hspace{2.3in}\= \hspace{2.6in}\= \kill % tabs
+				{\bf Infrastructure Engineering Intern} \>Palantir Technologies, Palo Alto, CA \> \textit{Summer 2014}
+				\\Designed and implemented a VM to support development of plugins for data integration tools, cutting plugin developers'
+				\\iteration times in half while maintaining ease of build and release for my team.
+			\end{tabbing}\vspace{-20pt}
+
+			\begin{tabbing}
 				\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
 				{\bf Cyber-Auto Challenge}	\>Battelle, Columbus, OH	\> \textit{Summer 2013}
 
-\\Worked in an integrated team of students, scientists, government personnel, and auto industry engineers \\in a practicum-based series of challenges oriented towards testing the cyber-security of CAN networks. 
+                \\Worked in an integrated team of students, scientists, government personnel, and auto industry engineers in a practicum-
+                \\-based series of challenges oriented towards testing the cyber-security of CAN networks. 
 			\end{tabbing}\vspace{-20pt}
 
 			\begin{tabbing}
 				\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
 				{\bf Undergraduate Researcher}	\>Locomotion Lab (CSAIL), Cambridge, MA	\> \textit{Fall 2011 - Summer 2012}
 
-				\\ Implemented URDF support in Yobotics Simulation Construction Set (Java), learned various aspects of \\Control Design and Verification Theory.
+				\\Implemented URDF support in Yobotics Simulation Construction Set (Java), learned various aspects of
+				Control Design
+				\\and Verification Theory.
 
 			\end{tabbing}\vspace{-20pt}
 
@@ -66,7 +78,8 @@
 				\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
 				{\bf Simmons Tech Member}	\>Simmons Hall, Cambridge, MA	\> \textit{Spring 2012 - Present}
 
-				\\Part of a student committee tasked with managing dorm servers and information. Simmons Tech develops\\numerous services for residents. See http://github.com/simmons-tech/. I have personally\\worked on every repository listed.
+				\\Part of a student committee tasked with managing dorm servers and information. Simmons Tech develops numerous
+				\\services for residents. See http://github.com/simmons-tech/. I have personally worked on every repository listed.
 
 			\end{tabbing}\vspace{-20pt}
 
@@ -74,14 +87,17 @@
 				\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
 				{\bf Tech Consulting \& Web Design}	\>Rogue Valley Dermatology, Medford, OR	\> \textit{Fall 2007 - Present}
 
-				\\Create and maintain a business webpage (rvderm.com), implemented a HIPPA compliant patient photo \\database, build and maintenance Office PCs and Network.
+				\\Create and maintain a business webpage (rvderm.com), implemented a HIPPA compliant patient photo database, build
+				\\and maintenance Office PCs and Network.
 
 			\end{tabbing}\vspace{-20pt}
 
 			\begin{tabbing}
 				\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
 				{\bf Volunteer Exhibit Interpreter}	\>ScienceWorks Museum, Ashland, OR	\> \textit{Fall 2007 - Spring 2011}
-				\\Recognized for outstanding service and leadership. Assisted visitors with correct and safe use of exhibits,\\ensured exhibits remained functional, and assisted instructors with demos, etc. during week-long camps.\\Recognized for outstanding service and leadership.
+				\\Recognized for outstanding service and leadership. Assisted visitors with correct and safe use of exhibits, ensured exhibits
+				\\ remained functional, and assisted instructors with demos, etc. during week-long camps. Recognized for outstanding
+				\\ service and leadership.
 
 			\end{tabbing}\vspace{-20pt}
 
@@ -101,9 +117,11 @@
 
 				\item[\LaTeX] This resume is typeset in \LaTeX. I also tend to \TeX \space math and CS psets.
 
-				\item[Linux Terminal / Bash Scripting] Ubuntu Linux is my primary operating system, I help maintain our dorm server and the Linux VMs (Debian, Fedora, and Scientific Linux) running on it.
+				\item[Linux Terminal / Bash Scripting] Ubuntu Linux is my primary operating system, I help maintain our dorm server and the Xen VMs (Debian, Fedora, and Scientific Linux) running on it.
 
 				\item[ROS (Robot Operating System)] Several personal projects, most recently a voice controlled hexapod.
+				
+				\item[Many Others] HTML/CSS/JS, Vagrant, LESS, Coffeescript, the occasional dabbling in Haskell/Prolog/FRACTRAN. 
 
 			\end{description}
 	\end{resume}
